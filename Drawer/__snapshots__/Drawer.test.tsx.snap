@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Components] => Drawer should render a sidebar, main content section and a backdrop 1`] = `
+<div
+  className="drawer"
+>
+  <div
+    className="backdrop"
+    onClick={[Function]}
+  />
+  <div
+    className="mobileSidebar"
+  >
+    <Component />
+  </div>
+  <div
+    className="layout"
+  >
+    <div
+      className="sidebar"
+    >
+      <Component />
+    </div>
+    <div
+      className="main"
+    >
+      <Component />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] => Drawer should update a classnames after clicking on a backdrop 1`] = `
+<div
+  className="drawer"
+>
+  <div
+    className="backdrop"
+    onClick={[Function]}
+  />
+  <div
+    className="mobileSidebar"
+  >
+    <Component />
+  </div>
+  <div
+    className="layout"
+  >
+    <div
+      className="sidebar"
+    >
+      <Component />
+    </div>
+    <div
+      className="main"
+    >
+      <Component />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] => Drawer should update a classnames after clicking on a backdrop 2`] = `
+<div
+  className="drawer"
+>
+  <div
+    className="backdrop backdropIsOpen"
+    onClick={[Function]}
+  />
+  <div
+    className="mobileSidebar sidebarIsOpen"
+  >
+    <Component />
+  </div>
+  <div
+    className="layout"
+  >
+    <div
+      className="sidebar"
+    >
+      <Component />
+    </div>
+    <div
+      className="main"
+    >
+      <Component />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] => Drawer should update class names when the state will change 1`] = `
+<div
+  className="drawer"
+>
+  <div
+    className="backdrop"
+    onClick={[Function]}
+  />
+  <div
+    className="mobileSidebar"
+  >
+    <Component />
+  </div>
+  <div
+    className="layout"
+  >
+    <div
+      className="sidebar"
+    >
+      <Component />
+    </div>
+    <div
+      className="main"
+    >
+      <Component />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] => Drawer should update class names when the state will change 2`] = `
+<div
+  className="drawer"
+>
+  <div
+    className="backdrop backdropIsOpen"
+    onClick={[Function]}
+  />
+  <div
+    className="mobileSidebar sidebarIsOpen"
+  >
+    <Component />
+  </div>
+  <div
+    className="layout"
+  >
+    <div
+      className="sidebar"
+    >
+      <Component />
+    </div>
+    <div
+      className="main"
+    >
+      <Component />
+    </div>
+  </div>
+</div>
+`;

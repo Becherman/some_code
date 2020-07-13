@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Components] => <ExpandablePanel /> Content renders content block 1`] = `
+<div
+  className="wrapper foo"
+>
+  <div
+    className="header bar"
+    onClick={[Function]}
+  >
+    <div
+      className="iconContainer"
+    >
+      <div
+        className="text"
+      >
+        foo
+      </div>
+    </div>
+    <div
+      className="trigger icon-cevron-down"
+    />
+  </div>
+  <div
+    className="content baz"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      <div
+        className="child"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] => <ExpandablePanel /> Content renders passed child 1`] = `
+<div
+  className="wrapper foo"
+>
+  <div
+    className="header bar"
+    onClick={[Function]}
+  >
+    <div
+      className="iconContainer"
+    >
+      <div
+        className="text"
+      >
+        foo
+      </div>
+    </div>
+    <div
+      className="trigger icon-cevron-down"
+    />
+  </div>
+  <div
+    className="content baz"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      <div
+        className="child"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] => <ExpandablePanel /> Header renders header 1`] = `
+<div
+  className="wrapper foo"
+>
+  <div
+    className="header bar"
+    onClick={[Function]}
+  >
+    <div
+      className="iconContainer"
+    >
+      <div
+        className="text"
+      >
+        foo
+      </div>
+    </div>
+    <div
+      className="trigger icon-cevron-down"
+    />
+  </div>
+  <div
+    className="content baz"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      <div
+        className="child"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] => <ExpandablePanel /> Header renders icon if icon prop was passed 1`] = `
+<div
+  className="wrapper foo"
+>
+  <div
+    className="header bar"
+    onClick={[Function]}
+  >
+    <div
+      className="iconContainer"
+    >
+      <div
+        className="icon foobar"
+      />
+      <div
+        className="text"
+      >
+        foo
+      </div>
+    </div>
+    <div
+      className="trigger icon-cevron-down"
+    />
+  </div>
+  <div
+    className="content baz"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      <div
+        className="child"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] => <ExpandablePanel /> Header renders passed iconRenderer component instead of a basic icon 1`] = `
+<div
+  className="wrapper foo"
+>
+  <div
+    className="header bar"
+    onClick={[Function]}
+  >
+    <div
+      className="iconContainer"
+    >
+      <div
+        className="text"
+      >
+        foo
+      </div>
+    </div>
+    <div
+      className="iconRenderer"
+    />
+  </div>
+  <div
+    className="content baz"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      <div
+        className="child"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] => <ExpandablePanel /> Header renders passed text prop 1`] = `
+<div
+  className="wrapper foo"
+>
+  <div
+    className="header bar"
+    onClick={[Function]}
+  >
+    <div
+      className="iconContainer"
+    >
+      <div
+        className="text"
+      >
+        foo
+      </div>
+    </div>
+    <div
+      className="trigger icon-cevron-down"
+    />
+  </div>
+  <div
+    className="content baz"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      <div
+        className="child"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] => <ExpandablePanel /> Header renders passed triggerRenderer component instead of a basic trigger 1`] = `
+<div
+  className="wrapper foo"
+>
+  <div
+    className="header bar"
+    onClick={[Function]}
+  >
+    <div
+      className="iconContainer"
+    >
+      <div
+        className="text"
+      >
+        foo
+      </div>
+    </div>
+    <div
+      className="triggerRenderer"
+    />
+  </div>
+  <div
+    className="content baz"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      <div
+        className="child"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] => <ExpandablePanel /> Header renders trigger if hasTrigger prop was passed 1`] = `
+<div
+  className="wrapper foo"
+>
+  <div
+    className="header bar"
+    onClick={[Function]}
+  >
+    <div
+      className="iconContainer"
+    >
+      <div
+        className="text"
+      >
+        foo
+      </div>
+    </div>
+  </div>
+  <div
+    className="content baz"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      <div
+        className="child"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] => <ExpandablePanel /> Header should add .isOpened class to trigger on click 1`] = `
+<div
+  className="wrapper foo"
+>
+  <div
+    className="header bar"
+    onClick={[Function]}
+  >
+    <div
+      className="iconContainer"
+    >
+      <div
+        className="text"
+      >
+        foo
+      </div>
+    </div>
+    <div
+      className="trigger icon-cevron-down isOpened"
+    />
+  </div>
+  <div
+    className="content baz"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "height": null,
+      }
+    }
+  >
+    <div>
+      <div
+        className="child"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] => <ExpandablePanel /> renders without errors 1`] = `
+<div
+  className="wrapper foo"
+>
+  <div
+    className="header bar"
+    onClick={[Function]}
+  >
+    <div
+      className="iconContainer"
+    >
+      <div
+        className="text"
+      >
+        foo
+      </div>
+    </div>
+    <div
+      className="trigger icon-cevron-down"
+    />
+  </div>
+  <div
+    className="content baz"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  >
+    <div>
+      <div
+        className="child"
+      />
+    </div>
+  </div>
+</div>
+`;

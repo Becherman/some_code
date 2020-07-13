@@ -1,0 +1,78 @@
+$shadow: $box-shadow-2;
+
+:local(.drawer) {
+  padding: 0;
+}
+
+:local(.layout) {
+  display: flex;
+  justify-content: space-between;
+}
+
+:local(.backdrop) {
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in;
+  z-index: 9;
+  background-color: #000;
+}
+
+:local(.backdropIsOpen) {
+  opacity: 0.2;
+  pointer-events: all;
+}
+
+:local(.mobileSidebar) {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 70%;
+  height: 100vh;
+  background: $white;
+  z-index: 10;
+  opacity: 0;
+  transition: all 0.4s ease-out;
+  transform: translateX(100%);
+}
+
+:local(.sidebarIsOpen) {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+:local(.sidebar) {
+  display: none;
+}
+
+:local(.main) {
+  width: 100%;
+}
+
+@include for-desktop {
+  :local(.drawer) {
+    padding: 16px;
+  }
+
+  :local(.sidebar) {
+    display: block;
+    width: 25%;
+    background: #fff;
+    box-shadow: $shadow;
+  }
+
+  :local(.main) {
+    display: block;
+    width: 73%;
+  }
+  
+  :local(.mobileSidebar),
+  :local(.toggler),
+  :local(.backdrop) {
+    display: none;
+  }
+}

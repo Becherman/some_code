@@ -1,0 +1,64 @@
+$mobilePadding: 1rem;
+$mainPadding: 1.5rem;
+$transitionSpeed: 300ms;
+
+:local(.wrapper) {
+  background: $white;
+  box-shadow: $box-shadow-1;
+}
+
+:local(.header) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $mobilePadding;
+  cursor: pointer;
+
+  &:hover {
+    & :local(.trigger) {
+      color: $brand-primary;
+    }
+  }
+
+  @include for-tablet {
+    @include font-title;
+    padding: $mainPadding;
+  }
+}
+
+:local(.iconContainer) {
+  display: flex;
+  align-items: center;
+}
+
+:local(.content) {
+  background: $white;
+  overflow: hidden;
+  transition: height $transitionSpeed linear 0s;
+}
+
+:local(.trigger) {
+  cursor: pointer;
+  color: $gray-400;
+  font-size: $icon-cevron-size;
+  transition: all $transitionSpeed linear 0s;
+  transform: rotateZ(0);
+}
+
+:local(.isOpened) {
+  transform: rotateZ(180deg);
+}
+
+:local(.text) {
+  color: $text-main3;
+
+  @include font-subheader;
+  @include for-tablet {
+    @include font-title;
+  }
+}
+:local(.icon) {
+  color: $brand-primary;
+  margin-right: 12px;
+  font-size: 28px;
+}
